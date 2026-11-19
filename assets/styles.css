@@ -1,0 +1,68 @@
+[data-testid="stMainBlockContainer"] {
+    max-width: 1120px;
+    padding-top: 2.3rem;
+    padding-bottom: 2rem;
+}
+
+.academic-hero {
+    display: grid;
+    grid-template-columns: 1.12fr 1fr;
+    background: #173b31;
+    border-radius: 20px;
+    overflow: hidden;
+    isolation: isolate;
+    min-height: 278px;
+    margin: 0 0 0.9rem;
+}
+
+.academic-hero-copy {
+    padding: clamp(1.45rem, 4vw, 2.8rem);
+    align-self: center;
+}
+
+.academic-hero h1 {
+    color: #fcfaf0;
+    font-family: Georgia, serif;
+    font-size: clamp(2.2rem, 5.8vw, 4.35rem);
+    font-weight: 400;
+    letter-spacing: -0.035em;
+    line-height: 0.98;
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+.academic-hero .academic-intro {
+    color: #e2e8dc;
+    max-width: 34ch;
+    margin: 0;
+}
+
+.academic-hero img {
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    min-height: 0;
+    object-fit: cover;
+    object-position: center 55%;
+}
+
+[data-testid="stForm"] {
+    background: #fffdf7;
+    border-color: #e0dccb;
+    border-radius: 16px;
+    padding: 1.35rem;
+}
+
+[data-testid="stFormSubmitButton"] button {
+    min-width: 9rem;
+}
+
+@media (max-width: 650px) {
+    .academic-hero {
+        grid-template-columns: 1fr;
+    }
+
+    .academic-hero img {
+        height: 145px;
+    }
+}

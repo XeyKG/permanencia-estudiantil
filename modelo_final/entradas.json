@@ -1,0 +1,36 @@
+{
+  "spark_version": "3.5.8",
+  "modelo": "Regresión logística",
+  "categoricas": [
+    "course",
+    "daytimeeveningattendance",
+    "previousqualification"
+  ],
+  "numericas": [
+    "admissiongrade",
+    "previousqualificationgrade",
+    "curricularunits1stsemenrolled",
+    "curricularunits1stsemapproved",
+    "curricularunits1stsemgrade",
+    "curricularunits1stsemevaluations",
+    "curricularunits2ndsemenrolled",
+    "curricularunits2ndsemapproved",
+    "curricularunits2ndsemgrade",
+    "curricularunits2ndsemevaluations"
+  ],
+  "tipos": {
+    "course": "int",
+    "daytimeeveningattendance": "int",
+    "previousqualification": "int",
+    "admissiongrade": "double",
+    "previousqualificationgrade": "double",
+    "curricularunits1stsemenrolled": "int",
+    "curricularunits1stsemapproved": "int",
+    "curricularunits1stsemgrade": "double",
+    "curricularunits1stsemevaluations": "int",
+    "curricularunits2ndsemenrolled": "int",
+    "curricularunits2ndsemapproved": "int",
+    "curricularunits2ndsemgrade": "double",
+    "curricularunits2ndsemevaluations": "int"
+  }
+}
